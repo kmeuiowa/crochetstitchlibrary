@@ -10,12 +10,17 @@ credits: true
 
 {% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
 
-## About CollectionBuilder-Sheets
+## About the Collection
 
-This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a template  for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills and easy hosting on GitHub Pages.
+This collection offers examples of several stitches usd in crochet, ranging from from beginner to intermediate difficulty. This wesbite serves as a digiital companion to the physical collection which is housed at the Scott Community College Library in Bettendorf, IA. 
 
-Using CB-Sheets, it is possible to use a live Google Sheets spreadsheet for your collection metadata, allowing you to see the outcome of metadata edits update immediately.
-This enables active collaboration to prototype collections with minimal set up.
+## Collection History
+
+This collection started as a project for an Information Organization class at the University of Iowa to learn about metadata. The physical objects used in this collecion are now available as reference items at Scott Community College. In March of 2025, teh creator of this collection and two other employees at Scott Community College started up a crafting club at SCC. While it is open to all kinds of crafts, crochet has been the main craft and hobby of the club memebers. To help new crocheters, these swatches were created to help new artists pick stitches for their projects. 
+
+## About the Creator
+
+Kaitlyn has been crocheting since she was ten years old, but recently picked it up as a hooby again during her time in college. She is also a student at the University of Iowa studying Library and Information Science. This project has help blended her hobby and career. 
 
 <button class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#cbSetUpModal">
     <svg class="bi icon-sprite" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
@@ -25,22 +30,6 @@ This enables active collaboration to prototype collections with minimal set up.
     Change the Metadata!
 </button>
 {:.text-center}
-
-## Create your own Metadata
-
-To create metadata compatible with this CollectionBuilder-Sheets instance the best way to get started is to make of copy of our template in Google Drive:
-
-[CollectionBuilder Metadata Template](https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/copy?usp=sharing){:.btn .btn-outline-primary target="_blank" rel="noopener"}
-{:.text-center}
-
-Alternatively, you can [download the template CSV]({{ '/assets/metadata-template.csv' | relative_url }}) and work on your local machine.
-We suggest editing your CSV using [LibreOffice](https://www.libreoffice.org/) Calc, [OpenRefine](https://openrefine.org/), or Google Sheets (and do not suggest using Excel, since Excel's CSV output is not correctly formatted).
-
-Describe your items in your copy of the template, following the [Metadata Guidelines]({{ '/metadata.html' | relative_url }}). 
-
-Once you have items added you can test your metadata by clicking the "Change the Metadata" button above.
-
-## Learn More
 
 For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
 
